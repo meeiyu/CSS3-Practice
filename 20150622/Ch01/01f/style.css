@@ -1,0 +1,35 @@
+/* CSS Document */
+.menu{
+	height:40px;
+	background:#000000;
+	border-radius:10px;}
+.menu li{
+	position:relative;
+	z-index:10;
+	display:inline;}
+.menu a{
+	display:block;
+	position:relative;
+	float:left;
+	color:#FFFFFF;
+	padding:10px 30px;
+	z-index:20;
+	border:1px solid #666;
+	border-width:0 1px;
+	text-decoration:none;
+	border-color:#000 #666 #000 #ccc;
+	overflow:hidden;}
+.menu span{
+	width:0%;
+	height:100%;
+	position:absolute;
+	z-index:-1;
+	top:0;
+	right:0;
+	background-color:#FF6600;}
+.menu a:hover{
+	color:#FFFF99;}
+.menu a:hover span{
+	left:0;
+	width:100%;
+	height:100%;}

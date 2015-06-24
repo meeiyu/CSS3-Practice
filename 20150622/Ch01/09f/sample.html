@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>about inline-block</title>
+<style>
+*{
+	margin:0;
+	padding:0;
+	list-style:none;}
+ul{
+	display:block;
+	width:960px;
+	height:30px;
+	margin:auto;
+	background-color:#666;
+	text-align:center;
+	font-size: 0px;}
+li{
+	display:inline;
+	font-size: 16px;}
+li a{
+	display:inline-block;
+	*display: inline;
+	*zoom: 1;
+	line-height:30px;
+	color:#FFF;
+	background-color:#666;
+	padding:0 20px;
+	border-left:1px solid #F00;
+	border-right:1px solid #0f0;}
+</style>
+</head>
+<body>
+<ul>
+	<li><a href="javascript:;">首頁</a></li>
+	<li><a href="javascript:;">關於飛肯</a></li>
+	<li><a href="javascript:;">設計課程介紹</a></li>
+	<li><a href="javascript:;">企業包班</a></li>
+	<li><a href="javascript:;">聯絡我們</a></li>
+</ul>
+</body>
+</html>

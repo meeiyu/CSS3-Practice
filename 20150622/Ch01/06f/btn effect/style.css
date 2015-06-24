@@ -1,0 +1,19 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+h1{
+	font-family: arial;
+	position: relative;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: 200px auto;
+	font-size: 200px;
+	text-align: center;
+	height: 200px;
+	display: block;
+	color: RGBA(192, 57, 43, 1);
+}

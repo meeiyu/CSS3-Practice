@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	.menu{
+		text-align: right;
+	}
+	.menu li{
+		display: inline;
+	}
+	.menu a{
+		display: inline-block;
+		padding: 10px 20px;
+		text-decoration: none;
+		position: relative;
+		/*background-color: #ccc;*/
+	}
+	.menu li + li a:before{
+		content: '';
+		display: block;
+		width: 1px;
+		height: 20px;
+		background-color: #aaa;
+		position: absolute;
+		top: 10px;
+		left: 0;
+	}
+	</style>
+</head>
+<body>
+	<ul class="menu">
+		<li><a href="#">連結</a></li>
+		<li><a href="#">連結</a></li>
+		<li><a href="#">連結</a></li>
+		<li><a href="#">連結</a></li>
+		<li><a href="#">連結</a></li>
+		<li><a href="#">連結</a></li>
+		<li><a href="#">連結</a></li>
+		<li><a href="#">連結</a></li>
+		<li><a href="#">連結</a></li>
+		<li><a href="#">連結</a></li>
+		<li><a href="#">連結</a></li>
+	</ul>
+</body>
+</html>

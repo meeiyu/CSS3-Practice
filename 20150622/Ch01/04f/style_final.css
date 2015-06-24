@@ -1,0 +1,29 @@
+*{
+	margin:0;padding:0;list-style:none;
+}
+.nav{
+	margin: 100px auto;
+	font-size: 0;
+	text-align: center;
+}
+.nav li{
+	display: inline;
+}
+.nav img{
+	width: 100px;
+	display: block;
+	margin:40px auto 0;
+}
+.nav a{
+	display: inline-block;
+	margin:10px;
+	font-size: 17px;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	width: 150px;
+	height: 200px;
+	border-radius: 50% / 40% 40% 60% 60%;
+	background-color: #FF794F;
+}
+.nav a:hover{background-color: #FD5178;}

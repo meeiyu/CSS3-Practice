@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.menu{
+	height:40px;
+	background:#000000;}
+.menu li{
+	position:relative;
+	z-index:10;
+	display:inline;}
+.menu a{
+	display:block;
+	position:relative;
+	float:left;
+	color:#FFFFFF;
+	padding:10px 30px;
+	z-index:20;
+	border:1px solid #666;
+	border-width:0 1px;
+	text-decoration:none;
+	border-color:#000 #666 #000 #ccc;
+	overflow:hidden;}
+.menu a:hover{
+	color:#FFFF99;}
+.menu li:first-child a {border-left: none;}
+.menu li:last-child a {border-right: none;}

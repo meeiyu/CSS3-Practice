@@ -1,0 +1,24 @@
+@charset "UTF-8";
+*{ 
+	margin:0;
+	padding:0;
+	list-style:none;}
+h1{
+	text-align:center;
+	padding:20px;}
+.tab{
+	margin:auto;
+	text-align:center;
+	border-bottom:1px solid #06C;}
+.tab li{
+	display:inline;}
+.tab li a{
+	display:inline-block;
+	font-size:18px;
+	padding:10px 20px;
+	background-color:#069;
+	border-radius:10px 10px 0 0; 
+	color:#FFF;
+	text-decoration:none;}
+.tab li a:hover{
+	background-color:#06F;}
